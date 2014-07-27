@@ -1,6 +1,6 @@
 Source of the original data is: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . The description of the original data is found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 The attached R script (run_analysis.R) performs the following to clean up the data:
-	•	1. Reads the datasets: training, test, activity, features and subject
+		1. Reads the datasets: training, test, activity, features and subject
 		"X_train.txt"
 		"y_train.txt"
 		"X_test.txt"
@@ -9,30 +9,30 @@ The attached R script (run_analysis.R) performs the following to clean up the da
 		"subject_test.txt"
 		"activity_labels.txt"
 		"features.txt"
-	•	2. Merge the training and the test sets to create one data set for each of X, y, and subject.
+	2. Merge the training and the test sets to create one data set for each of X, y, and subject.
 
-•	3. Appropriately labels the data set with descriptive variable names:
+	3. Appropriately labels the data set with descriptive variable names:
 
-"actid", "activitytype" for the activity dataset
-"featid", "featuretype" for the features dataset
-"subjectid" for the subject dataset
-feature type names for each feature instance in the X dataset
-"activity" for the y dataset
+		"actid", "activitytype" for the activity dataset
+		"featid", "featuretype" for the features dataset
+		"subjectid" for the subject dataset
+		featuretype names for each feature instance in the X dataset
+		"activity" for the y dataset
 
-•	4. Extracts only the feature measurements on the mean and standard deviation for each measurement.
+	4. Extracts only the feature measurements on the mean and standard deviation for each measurement.
 
-	•	5. Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set and reformats as:
-laying
-sitting
-standing
-walking
-walkingdownstairs
-walkingupstairs
+	5. Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set and reformats as:
+		laying
+		sitting
+		standing
+		walking
+		walkingdownstairs
+		walkingupstairs
 
-	•	6. Merges the cleaned datasets into one dataset
-	•	7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-	•	8. Create and writes to working directory a long format tidy dataset, the resulting dataset has four variables:
-“activity” string as described above
-“subjected” integer which indicates 1 of 30 subjects who participated in the study
-“feature” string which is a list of 66 recorded features of the study which are mean or standard deviation measures
-“mean” numeric which is the metric captured for the observed subject:activity:feature combination
+	6. Merges the cleaned datasets into one dataset
+	7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+	8. Create and writes to working directory a long format tidy dataset, the resulting dataset has four variables:
+		“activity” string as described above
+		“subjected” integer which indicates 1 of 30 subjects who participated in the study
+		“feature” string which is a list of 66 recorded features of the study which are mean or standard deviation measures
+		“mean” numeric which is the metric captured for the observed subject:activity:feature combination
