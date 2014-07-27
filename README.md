@@ -1,3 +1,5 @@
+## Getting and Cleaning Data Project
+
 The data for this assignment is available at:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 to use the script contained in this repo run_analysis.R the data files will need to be downloaded and located in the working directory. (e.g. "/Users/name/Documents/R")
