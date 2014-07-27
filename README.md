@@ -2,7 +2,7 @@
 
 The data for this assignment is available at:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-to use the script contained in this repo run_analysis.R the data files will need to be downloaded and located in the working directory. (e.g. "/Users/name/Documents/R")
+to use the script contained in this repo (barryne/Getandcleandata) run_analysis.R the data files will need to be downloaded and located in the working directory. (e.g. "/Users/name/Documents/R")
 
 Bring the run_analysis.R file into R-Studio. 
 From the console you can then type: 
@@ -22,3 +22,4 @@ This will do the following:
 - 8. Write a wide format tidy dataset to the working directory
 - 9. And finally, create and write a long format tidy dataset to the working directory (suitable for further analysis such as regression analysis)
 
+This repo (barryne/Getandcleandata) also contains a Codebook which explains the original data, the processing steps and the resulting dataset.
