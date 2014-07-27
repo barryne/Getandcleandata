@@ -7,7 +7,7 @@ to use the script contained in this repo run_analysis.R the data files will need
 Bring the run_analysis.R file into R-Studio. 
 From the console you can then type: 
 
-source("run_analysis.R")
+*source("run_analysis.R")*
 
 and run the code.
 
